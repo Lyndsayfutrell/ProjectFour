@@ -29,6 +29,7 @@ $color-border-dark  : $main-color-dark;
 
 // Media Queries
 
+$width: 768px;
 $col-percent: 8.3333333333;
 
 // Button colors
@@ -39,3 +40,4 @@ $col-percent: 8.3333333333;
     'info': $accent-color-dark, 
     'success': $main-color-dark, 
     'warning': $warning-color);
+

@@ -3,7 +3,7 @@
 /* ============================================= */
 
 
-@media (min-width: 768px) {
+@media (min-width: $width) {
 
     .container {
       max-width: 1400px;
@@ -48,5 +48,9 @@
       margin-left: initial;
       margin-right: initial;
     }
-    
+    @for $i from 1 through 12 {
+      .col-#{$i} {
+        flex-basis: col-flex($i);
     }
+    }
+  }
