@@ -1,0 +1,25 @@
+
+// Col list function
+
+@function col-flex($col-num, $flex-percent: $col-percent) {
+    @return ($flex-percent * $col-num) * 1%;
+
+}
+
+@for $i from 1 through 12 {
+    .theme.col-#{$i} {
+      background-color: adjust-hue($main-color-light, $i * 20);
+    }
+    .col-#{$i} {
+        flex-basis: col-flex($i);
+    }
+  }
+
+
+  @mixin margin {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   }
+
+   
