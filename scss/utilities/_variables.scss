@@ -5,7 +5,6 @@ $black          : #000;
 $grey           : #878787;
 $dark-green     : #CCD5AE;
 $light-green  : #E9EDC9;
-$burnt-orange  : #D4A373;
 $light-beige : #FEFAE0;
 $dark-beige : #FAEDCD;
 
@@ -16,15 +15,15 @@ $color-shadow       : rgba($black,.8);
 $color-body         : $white;
 $color-text         : $grey;
 
-$error-color: $burnt-orange;
-$warning-color :lighten($error-color, 20%);
-$main-color-dark: $dark-green;
-$main-color-light: $light-green;
-$accent-color-dark: $dark-beige;
-$accent-color-light: $light-beige;
+$error-color: #e4757a;
+$warning-color :#fd7856;
+$main-color-dark: #63cc82;;
+$main-color-light: #51ddfc;
+$accent-color-dark: #927bc1;
+$accent-color-light: #58e1c1;
 
-$color-link-default : $main-color-dark;
-$color-link-visited : $main-color-light;
+$color-link-default : $main-color-light;
+$color-link-visited : $main-color-dark;
 $color-border-dark  : $main-color-dark;
 
 // Media Queries
@@ -40,4 +39,3 @@ $col-percent: 8.3333333333;
     'info': $accent-color-dark, 
     'success': $main-color-dark, 
     'warning': $warning-color);
-

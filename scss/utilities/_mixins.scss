@@ -8,7 +8,7 @@
 
 @for $i from 1 through 12 {
     .theme.col-#{$i} {
-      background-color: adjust-hue($main-color-light, $i * 20);
+      background-color: adjust-hue($accent-color-light, $i * 12);
     }
 
   }

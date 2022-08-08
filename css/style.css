@@ -1,61 +1,61 @@
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-1 {
-  background-color: #ddedc9;
+  background-color: #58e1dc;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-2 {
-  background-color: #d1edc9;
+  background-color: #58cae1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-3 {
-  background-color: #c9edcd;
+  background-color: #58afe1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-4 {
-  background-color: #c9edd9;
+  background-color: #5893e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-5 {
-  background-color: #c9ede5;
+  background-color: #5878e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-6 {
-  background-color: #c9e9ed;
+  background-color: #585de1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-7 {
-  background-color: #c9dded;
+  background-color: #6f58e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-8 {
-  background-color: #c9d1ed;
+  background-color: #8a58e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-9 {
-  background-color: #cdc9ed;
+  background-color: #a658e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-10 {
-  background-color: #d9c9ed;
+  background-color: #c158e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-11 {
-  background-color: #e5c9ed;
+  background-color: #dc58e1;
 }
 
 /* line 10, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/utilities/_mixins.scss */
 .theme.col-12 {
-  background-color: #edc9e9;
+  background-color: #e158ca;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -456,7 +456,7 @@ a {
 /* ============================================= */
 /* line 25, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/base/_typography.scss */
 .headline-primary {
-  color: #CCD5AE;
+  color: #63cc82;
   margin-left: 10px;
 }
 
@@ -468,7 +468,7 @@ a {
 
 /* line 35, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/base/_typography.scss */
 .link {
-  color: #CCD5AE;
+  color: #51ddfc;
   font-weight: 700;
 }
 
@@ -479,7 +479,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #CCD5AE;
+  border-left: 8px solid #63cc82;
   border-radius: 5px;
 }
 
@@ -499,60 +499,60 @@ a {
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .default {
-  background-color: #E9EDC9;
+  background-color: #51ddfc;
 }
 
 /* line 20, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .default:hover {
-  background-color: #f1f3dc;
+  background-color: #6ae2fc;
   color: gray;
   transition: .5s ease-in-out;
 }
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .error {
-  background-color: #D4A373;
+  background-color: #e4757a;
 }
 
 /* line 20, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .error:hover {
-  background-color: #dab087;
+  background-color: #e88a8f;
   color: gray;
   transition: .5s ease-in-out;
 }
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .info {
-  background-color: #FAEDCD;
+  background-color: #927bc1;
 }
 
 /* line 20, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .info:hover {
-  background-color: #fcf5e4;
+  background-color: #a08cc9;
   color: gray;
   transition: .5s ease-in-out;
 }
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .success {
-  background-color: #CCD5AE;
+  background-color: #63cc82;
 }
 
 /* line 20, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .success:hover {
-  background-color: #d7debf;
+  background-color: #76d291;
   color: gray;
   transition: .5s ease-in-out;
 }
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .warning {
-  background-color: #ecd6c1;
+  background-color: #fd7856;
 }
 
 /* line 20, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_button.scss */
 .warning:hover {
-  background-color: #f2e3d5;
+  background-color: #fd8c6f;
   color: gray;
   transition: .5s ease-in-out;
 }
@@ -572,7 +572,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #CCD5AE;
+  border-bottom: 5px solid #63cc82;
 }
 
 /* line 18, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_form.scss */
@@ -638,7 +638,7 @@ a {
 /* line 19, ../../../../../Users/lyndsayfutrell/Desktop/coding projects/ProjectFour/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
-  background-color: #CCD5AE;
+  background-color: #58e1c1;
 }
 
 /* ============================================= */
