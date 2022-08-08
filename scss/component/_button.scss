@@ -18,8 +18,7 @@
       .#{$btn-name} {
         background-color: $btn-color;
         &:hover {
-          background-color: lighten($btn-color, 5%);
-          color: darken($color-body, 50%);
+          background-color: lighten($btn-color, 15%);
           transition: .5s ease-in-out;
       }
   }

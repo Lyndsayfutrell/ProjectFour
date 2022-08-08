@@ -23,3 +23,9 @@
 .card {
   flex-basis: 100%;
 }
+
+@each $col-name, $grid-colors in $grid-color {
+  .theme.#{$col-name} {
+    background-color: $grid-colors;
+  }
+}

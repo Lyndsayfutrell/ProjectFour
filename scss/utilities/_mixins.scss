@@ -6,13 +6,6 @@
 
 }
 
-@for $i from 1 through 12 {
-    .theme.col-#{$i} {
-      background-color: adjust-hue($accent-color-light, $i * 12);
-    }
-
-  }
-
 
   @mixin margin {
     margin-left: auto;
