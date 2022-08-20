@@ -8,21 +8,19 @@
     margin-right: auto;
 }
 
-
-
 .img {
   &-avatar {
     @include img-display
     max-height: 100%;
     margin-top: 10px;
-    max-width: 100%;
+    width: 100%;
   }
   &-frame {
     @include img-display
     padding: 13px;
     border: 1px solid $color-shadow;
     margin-top: 10px;
-    max-width: 100%;
+    width: 100%;
   }
   &-logo {
     @include img-display
